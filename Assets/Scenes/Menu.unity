@@ -10138,6 +10138,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Food Item (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752837265280889707, guid: f62f1d7d5fe5bed44825432d7249d52b, type: 3}
+      propertyPath: m_text
+      value: 'Turn this FoodDesc into a Scroll View & remove Vertical Layout Group.
+
+
+        Make sure that the Food Item box''s design is consistent with the cart amount buttons.'
+      objectReference: {fileID: 0}
     - target: {fileID: 7004919395987750225, guid: f62f1d7d5fe5bed44825432d7249d52b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
