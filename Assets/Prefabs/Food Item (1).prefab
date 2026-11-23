@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "40,00 \u20AC"
+  m_text: "00,99 \u20AC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -803,13 +803,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Major improvements to all stats.
-
-
-    ''...but wait! It was 99 cents.''
-
-
-    Gives "Exquisitely Stuffed".'
+  m_text: "Major improvements to all stats.\n\n'...but wait! It was 99 cents.'\n\nGives \"Exquisitely Stuffed\".\n\nM\u1ED1i quan h\u1EC7 gi\u1EEFa ch\xFAng ta l\xE0 g\xEC? qy"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -1207,7 +1201,7 @@ MonoBehaviour:
     m_Left: 2
     m_Right: 0
     m_Top: 0
-    m_Bottom: 0
+    m_Bottom: 2
   m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 0
