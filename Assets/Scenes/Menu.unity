@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 74411801}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2060345711}
+        m_TargetAssemblyTypeName: ButtonsHeader, Assembly-CSharp
+        m_MethodName: TextPaaruoat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &74411801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,6 +516,139 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &501541710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 501541711}
+  - component: {fileID: 501541714}
+  - component: {fileID: 501541713}
+  - component: {fileID: 501541712}
+  m_Layer: 5
+  m_Name: Btn Kaikki
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &501541711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501541710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1486634020}
+  m_Father: {fileID: 1834150650}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &501541712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501541710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.99607843, g: 0.9764706, b: 0.9411765, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 501541713}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2060345711}
+        m_TargetAssemblyTypeName: ButtonsHeader, Assembly-CSharp
+        m_MethodName: TextKaikki
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &501541713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501541710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &501541714
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501541710}
+  m_CullTransparentMesh: 1
 --- !u!224 &569437012 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4218842556193031716, guid: c0c4e604e9080cf429e5e0ac7161000a, type: 3}
@@ -1183,6 +1328,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419369120}
   m_CullTransparentMesh: 1
+--- !u!1 &1486634019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486634020}
+  - component: {fileID: 1486634022}
+  - component: {fileID: 1486634021}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1486634020
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486634019}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 501541711}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1486634021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486634019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Kaikki
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656bu
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1486634022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486634019}
+  m_CullTransparentMesh: 1
 --- !u!1 &1572658308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1753,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1620422783}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2060345711}
+        m_TargetAssemblyTypeName: ButtonsHeader, Assembly-CSharp
+        m_MethodName: TextJalkiruoat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1620422783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,7 +1886,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1640431073}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2060345711}
+        m_TargetAssemblyTypeName: ButtonsHeader, Assembly-CSharp
+        m_MethodName: TextJuomat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1640431073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1838,7 +2144,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1694610557}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2060345711}
+        m_TargetAssemblyTypeName: ButtonsHeader, Assembly-CSharp
+        m_MethodName: TextAlkuruoat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1694610557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2014,6 +2332,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 501541711}
   - {fileID: 1694610555}
   - {fileID: 74411799}
   - {fileID: 1620422781}
@@ -2164,6 +2483,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926661123}
   m_CullTransparentMesh: 1
+--- !u!114 &1994917413 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1955390764460709754, guid: 459156f68c223a441a0376b53a2f5c1d, type: 3}
+  m_PrefabInstance: {fileID: 7355690505117789278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &2060345708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,6 +2503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2060345709}
+  - component: {fileID: 2060345711}
   - component: {fileID: 2060345710}
   m_Layer: 0
   m_Name: Script Manager
@@ -2209,12 +2540,91 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuList
   menuItems:
-  - ID: 0
-    productName: 
-    description: 
-    category: 
-    price: 0
-    icon: {fileID: -5953589970474808923, guid: 451a999496bd3b745a2fabf71f28e27a, type: 3}
+  - ID: 1
+    category: Alkuruoka
+    productName: Bruschetta
+    description: "Paahdettua leip\xE4\xE4, tomaattia, basilikaa ja oliivi\xF6ljy\xE4"
+    price: 7.5
+    icon: {fileID: 5606346243244462297, guid: 130c6dc8901c76040bbe0d481be0d003, type: 3}
+  - ID: 2
+    category: Alkuruoka
+    productName: Caprese
+    description: "Mozzarellaa, tomaattia, basilikaa ja oliivi\xF6ljy\xE4"
+    price: 8.9
+    icon: {fileID: -8612463248183588659, guid: 17e878350e516854b8b8a3824e7ceb1c, type: 3}
+  - ID: 3
+    category: Alkuruoka
+    productName: Focaccia
+    description: "Talon focacciaa ja yrtti\xF6ljy\xE4"
+    price: 6.5
+    icon: {fileID: -1988883951532179545, guid: bd733d9c066e9d342a367b4ceae7aac7, type: 3}
+  - ID: 4
+    category: "P\xE4\xE4ruoka"
+    productName: Pizza Margherita
+    description: Tomaattia, mozzarellaa ja basilikaa
+    price: 12.9
+    icon: {fileID: 0}
+  - ID: 5
+    category: "P\xE4\xE4ruoka"
+    productName: Pasta Carbonara
+    description: Pastaa, kananmunaa, pecorinoa ja guancialea
+    price: 15.5
+    icon: {fileID: 0}
+  - ID: 6
+    category: "P\xE4\xE4ruoka"
+    productName: Pollo al Limone
+    description: Sitruunalla maustettua kanaa ja paahdettuja perunoita
+    price: 17.9
+    icon: {fileID: 0}
+  - ID: 7
+    category: "J\xE4lkiruoka"
+    productName: Tiramisu
+    description: Mascarponea, kahvia ja kaakaota
+    price: 7.5
+    icon: {fileID: 0}
+  - ID: 8
+    category: "J\xE4lkiruoka"
+    productName: Panna Cotta
+    description: Vaniljaista panna cottaa ja marjakastiketta
+    price: 6.9
+    icon: {fileID: 0}
+  - ID: 9
+    category: "J\xE4lkiruoka"
+    productName: Gelato
+    description: "Kolme palloa italialaista j\xE4\xE4tel\xF6\xE4"
+    price: 5.9
+    icon: {fileID: 0}
+  - ID: 10
+    category: Juoma
+    productName: Limonata
+    description: Italialainen sitruunalimonadi
+    price: 4
+    icon: {fileID: 0}
+  - ID: 11
+    category: Juoma
+    productName: Aranciata
+    description: Italialainen appelsiinilimonaadi
+    price: 4
+    icon: {fileID: 0}
+  - ID: 12
+    category: Juoma
+    productName: Acqua Frizzante
+    description: "Hiilihapotettu kivenn\xE4isvesi"
+    price: 3.5
+    icon: {fileID: 0}
+--- !u!114 &2060345711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060345708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cc1acb2d15b9544b9bb81c0327bd4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonsHeader
+  headerText: {fileID: 1994917413}
 --- !u!1001 &7355690505117789278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2354,6 +2764,10 @@ PrefabInstance:
     - target: {fileID: 1711431488502697055, guid: 459156f68c223a441a0376b53a2f5c1d, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955390764460709754, guid: 459156f68c223a441a0376b53a2f5c1d, type: 3}
+      propertyPath: m_text
+      value: KAIKKI
       objectReference: {fileID: 0}
     - target: {fileID: 3377705884134517342, guid: 459156f68c223a441a0376b53a2f5c1d, type: 3}
       propertyPath: m_SizeDelta.x
